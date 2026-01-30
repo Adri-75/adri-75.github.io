@@ -1,0 +1,54 @@
+/* TAG selector requirement */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* ID selector requirement */
+#header {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 30px 15px;   /* box model */
+}
+
+/* CLASS selector requirement (used multiple times) */
+.section {
+    background-color: white;
+    max-width: 800px;
+    margin: 20px auto;    /* box model */
+    padding: 20px;        /* box model */
+    border-radius: 10px;
+    border: 1px solid #ddd; /* box model */
+}
+
+/* Make headings consistent */
+h2 {
+    margin-top: 0;
+}
+
+/* Link styling + hover requirement */
+a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #dc2626;
+    text-decoration: underline;
+}
+
+/* Image styling (move from inline HTML) */
+#featured-image {
+    display: block;
+    max-width: 800px;
+    width: 90%;
+    height: auto;
+    margin: 20px auto;       /* box model */
+    border-radius: 10px;
+    border: 3px solid #111;  /* box model */
+}
