@@ -1,4 +1,4 @@
-/* TAG selector requirement */
+/* TAG selector */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -7,22 +7,22 @@ body {
     line-height: 1.6;
 }
 
-/* ID selector requirement */
+/* ID selector */
 #header {
     background-color: #1f2937;
     color: white;
     text-align: center;
-    padding: 30px 15px;   /* box model */
+    padding: 30px 15px;
 }
 
-/* CLASS selector requirement (used multiple times) */
+/* CLASS selector */
 .section {
     background-color: white;
     max-width: 800px;
-    margin: 20px auto;    /* box model */
-    padding: 20px;        /* box model */
+    margin: 20px auto;    
+    padding: 20px;       
     border-radius: 10px;
-    border: 1px solid #ddd; /* box model */
+    border: 1px solid #ddd; 
 }
 
 /* Make headings consistent */
@@ -30,7 +30,7 @@ h2 {
     margin-top: 0;
 }
 
-/* Link styling + hover requirement */
+/* Link styling + hover */
 a {
     color: #2563eb;
     text-decoration: none;
@@ -42,13 +42,23 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Image styling (move from inline HTML) */
+/* Featured Image styling */
 #featured-image {
     display: block;
-    max-width: 800px;
+    max-width: 300px;
     width: 90%;
     height: auto;
-    margin: 20px auto;       /* box model */
+    margin: 20px auto;     
     border-radius: 10px;
-    border: 3px solid #111;  /* box model */
+    border: 3px solid #111; 
+}
+
+/* Profile Image styling */
+#profile-pic {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;   /* make it circular */
+    object-fit: cover;
+    border: 3px solid white;
+    margin-bottom: 15px;
 }
